@@ -1,16 +1,8 @@
 #准备好所需文件
-#echo "down clash & lite & proxychains.conf file : begin !"
-#wget -O clash.gz https://github.com/Dreamacro/clash/releases/download/v1.12.0/clash-linux-amd64-v1.12.0.gz
-#gunzip clash.gz
-#wget -O lite.gz https://github.com/xxf098/LiteSpeedTest/releases/download/v0.13.1/lite-linux-amd64-v0.13.1.gz
-#gunzip lite.gz
-#wget -O proxychains.conf https://raw.githubusercontent.com/rxsweet/crawlNode/main/utils/litespeedtest/proxychains.conf
-#echo "download done !"
-
 echo "down clash & lite & proxychains.conf file : begin !"
-wget -O clash.gz https://github.com/Dreamacro/clash/releases/download/v1.11.4/clash-linux-amd64-v1.11.4.gz
+wget -O clash.gz https://github.com/Dreamacro/clash/releases/download/v1.12.0/clash-linux-amd64-v1.12.0.gz
 gunzip clash.gz
-wget -O lite.gz https://github.com/alanbobs999/LiteSpeedTest/releases/download/v0.11.2m/lite-linux-amd64-v0.11.2m.gz
+wget -O lite.gz https://github.com/xxf098/LiteSpeedTest/releases/download/v0.13.1/lite-linux-amd64-v0.13.1.gz
 gunzip lite.gz
 wget -O proxychains.conf https://raw.githubusercontent.com/rxsweet/crawlNode/main/utils/litespeedtest/proxychains.conf
 echo "download done !"
