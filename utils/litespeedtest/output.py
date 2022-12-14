@@ -1,7 +1,7 @@
 import json, base64, os, time
 
 out_json = './out.json'
-output_file_path = './sub/literx'
+output_file_path = './sub/literx64'
 
 def read_json(file): # 将 out.json 内容读取为列表
     mysleeptime = 0
