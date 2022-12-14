@@ -1,0 +1,907 @@
+port: 7890
+socks-port: 7891
+allow-lan: true
+mode: Rule
+log-level: info
+external-controller: :9090
+proxies:
+  - {name: 未知_1214654, server: amshare.jingledev.me, port: 443, type: vmess, uuid: 532a5f12-cadb-46e4-963f-ee7c075e40f0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: amshare.jingledev.me}}, udp: true}
+  - {name: 🇺🇸 github.com/freefq - 美国  10, server: fhcarm2.gaox.ml, port: 443, type: trojan, password: f39bd244-f5fe-415c-8b98-a1e5250bf178, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国_univstar_51, server: 184.170.241.194, port: 443, type: ss, cipher: aes-128-cfb, password: shadowsocks, udp: true}
+  - {name: 🇺🇸 美国_univstar_83, server: 144.168.60.70, port: 252, type: ss, cipher: aes-256-cfb, password: bwhskrskr03, udp: true}
+  - {name: 🇺🇸 美国_univstar_47, server: 144.168.58.170, port: 254, type: ss, cipher: aes-256-cfb, password: bwhskrskr05, udp: true}
+  - {name: _null_null, server: amshare.jingledev.me, port: 443, type: vmess, uuid: 532a5f12-cadb-46e4-963f-ee7c075e40f0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: amshare.jingledev.me}}, udp: true}
+  - {name: 🇺🇸 美国_univstar_97, server: 172.107.199.110, port: 50000, type: ss, cipher: aes-256-cfb, password: !<str> 3135771619, udp: true}
+  - {name: 🇺🇸 _US_美国_1_10@1, server: 129.146.242.130, port: 443, type: trojan, password: 05742120-ce23-4cc8-88f5-6d221ce45bf4, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国_univstar_113, server: 104.243.25.95, port: 253, type: ss, cipher: aes-256-cfb, password: bwhskrskr03, udp: true}
+  - {name: "|25.38Mb", server: 23.230.146.254, port: 1258, type: vmess, uuid: edeb41cc-a76a-47f2-fa96-b9141e66a2b0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国_univstar_71, server: 97.64.26.63, port: 253, type: ss, cipher: aes-256-cfb, password: bwhskrskr03, udp: true}
+  - {name: 🇺🇸 美国_univstar_70, server: 172.96.192.58, port: 254, type: ss, cipher: aes-256-cfb, password: bwhskrskr03, udp: true}
+  - {name: 🇺🇸 美国_univstar_35, server: 97.64.122.63, port: 253, type: ss, cipher: aes-256-cfb, password: bwhskrskr05, udp: true}
+  - {name: 🇺🇸 美国_univstar_78, server: 212.102.47.198, port: 443, type: ss, cipher: aes-128-cfb, password: shadowsocks, udp: true}
+  - {name: "|23.69Mb", server: 67.21.72.44, port: 443, type: vmess, uuid: 2566d00f-218c-48f7-9a36-13d3d6f1a724, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: www.48816626.xyz}}, udp: true}
+  - {name: 🇺🇸 美国_univstar_27, server: 95.169.4.174, port: 254, type: ss, cipher: aes-256-cfb, password: bwhskrskr06, udp: true}
+  - {name: "|23.80Mb", server: 67.21.72.41, port: 443, type: vmess, uuid: 2566d00f-218c-48f7-9a36-13d3d6f1a724, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: www.17080100.xyz}}, udp: true}
+  - {name: 🇺🇸 github.com/freefq - 美国CloudFlare节点 9, server: 172.67.199.34, port: 443, type: vmess, uuid: e3eba3ac-5bea-409f-ac5c-6c964e04d0c4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: ca2.v2rayserv.com}}, udp: true}
+  - {name: "[VMess] AM【付费推荐：goo.gs/vip】", server: 185.162.228.228, port: 443, type: vmess, uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: lg1.trump2023.us}}, udp: true}
+  - {name: 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点(shopify) 1, server: 23.227.38.39, port: 443, type: vmess, uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: oplg1.zhujicn2.com}}, udp: true}
+  - {name: 🇺🇸 287_美国-2.97MB, server: 37.120.147.230, port: 808, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 二爷翻墙 https://1808.ga node_87, server: 37.120.147.230, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 🇺🇸 github.com/freefq - 美国CloudFlare节点 16, server: 198.41.212.122, port: 443, type: vmess, uuid: 2b214122-1906-428a-bbb7-a039cbb7cd5c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: fr1.trump2023.org}}, udp: true}
+  - {name: 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 26, server: main.millionaireaisle.com, port: 443, type: vmess, uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: opfr1.v2rayfree1.xyz}}, udp: true}
+  - {name: 🇺🇸 美国_univstar_43, server: 185.153.180.10, port: 50003, type: ss, cipher: aes-256-cfb, password: !<str> 8460400130, udp: true}
+  - {name: 🇺🇸 美国 034, server: king6.workingoogle.ga, port: 8880, type: vmess, uuid: 050624ec-ba6a-49c3-e8d9-c46e5c167be0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: king6.workingoogle.ga}}, udp: true}
+  - {name: 🇨🇦 _CA_加拿大_13@16, server: ca2.v2rayserv.com, port: 80, type: vmess, uuid: e3eba3ac-5bea-409f-ac5c-6c964e04d0c4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: ca2.v2rayserv.com}}, udp: true}
+  - {name: 二爷翻墙 https://1808.ga node_91, server: Shopify.com, port: 2086, type: vmess, uuid: ad1454a4-c9e2-4836-c98d-66e3646c2aa4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: uk.cloudflare.quest}}, udp: true}
+  - {name: 🇺🇸 _US_美国_3_10@8, server: 129.146.190.42, port: 443, type: trojan, password: dbf9bf9c-2c3f-474a-8031-d4c00666a989, skip-cert-verify: true, udp: true}
+  - {name: "[VMess] BZ【付费推荐：goo.gs/vip】", server: 203.30.190.190, port: 443, type: vmess, uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: lg1.trump2023.us}}, udp: true}
+  - {name: 二爷翻墙 https://1808.ga node_51, server: king2.mmadserr.ml, port: 2095, type: vmess, uuid: dabdbbec-f774-41ff-a296-18026f469a97, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: king2.mmadserr.ml}}, udp: true}
+  - {name: 88.150.137.201:102%%�, server: 88.150.137.201, port: 1021, type: ssr, cipher: aes-128-ctr, password: sEscPBiAD9K$&@79, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
+  - {name: 🇳🇱 荷兰_univstar_99, server: 51.15.0.113, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: 🇦🇺 github.com/freefq - 澳大利亚Cranbourne Secondary College 17, server: 203.30.191.193, port: 443, type: vmess, uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: lg10.cfcdn1.xyz}}, udp: true}
+  - {name: 🇬🇧 _GB_英国_3_10@22, server: 132.145.51.172, port: 443, type: trojan, password: 02e653c9-7c93-46a9-999d-11834bd0c577, skip-cert-verify: true, udp: true}
+  - {name: 🇳🇱 荷兰_univstar_5, server: 109.201.152.181, port: 443, type: ss, cipher: aes-128-cfb, password: shadowsocks, udp: true}
+  - {name: 🇫🇷 法国_univstar_31, server: 195.154.185.174, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: 二爷翻墙 https://1808.ga node_37, server: content-provider4.cdn-delivery.akamaicd.com, port: 443, type: trojan, password: shefelnak, sni: content-provider4.cdn-delivery.akamaicd.com, skip-cert-verify: true, udp: true}
+  - {name: 🇳🇱 _NL_荷兰_8@27, server: content-provider23.cdn-delivery.akamaicd.com, port: 443, type: trojan, password: Sp3eDVp, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇭 瑞士_univstar_44, server: 156.146.62.160, port: 443, type: ss, cipher: aes-128-cfb, password: shadowsocks, udp: true}
+  - {name: 94.102.57.163:1170%%�, server: 94.102.57.163, port: 11708, type: ssr, cipher: aes-256-cfb, password: sEscPBiAD9K$&@79, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: WWW.YOUNEED.WIN, udp: true}
+  - {name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:) 60, server: 78.129.253.9, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 🇳🇱 _NL_荷兰_3_10@32, server: 185.212.200.75, port: 443, type: trojan, password: Sp3eDVp, skip-cert-verify: true, udp: true}
+  - {name: 🇩🇪 德国_univstar_54, server: 139.162.128.90, port: 8099, type: ss, cipher: aes-256-cfb, password: eIW0Dnk69454e6nSwuspv9DmS201tQ0D, udp: true}
+  - {name: 🇳🇱 _NL_荷兰_1_10@19, server: content-provider24.cdn-delivery.akamaicd.com, port: 443, type: trojan, password: Sp3eDVp, skip-cert-verify: true, udp: true}
+  - {name: 🇩🇪 德国_univstar_65, server: 130.162.53.215, port: 24576, type: ss, cipher: aes-256-gcm, password: VdaItKYmFf, udp: true}
+  - {name: 🇸🇪 瑞典_1214002, server: 13.50.153.230, port: 25289, type: vmess, uuid: fe2bd77d-312e-4ac0-defe-afdb279528a0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 13.50.153.230}}, udp: true}
+  - {name: 🇨🇱 智利_univstar_63, server: 190.120.230.9, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: 🇺🇸 github.com/freefq - 美国CloudFlare节点 18, server: 141.101.114.32, port: 443, type: vmess, uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: lg10.cfcdn1.xyz}}, udp: true}
+  - {name: 二爷翻墙 https://1808.ga node_36, server: sun.prxpro.cc, port: 80, type: vmess, uuid: 4ddd24d6-d901-5e5f-9a7c-080015c2e246, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: sun.prxpro.cc}}, udp: true}
+  - {name: 🇩🇪 480_德国-2.86MB, server: 188.40.132.112, port: 80, type: vmess, uuid: 4ddd24d6-d901-5e5f-9a7c-080015c2e246, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 188.40.132.112}}, udp: true}
+  - {name: "|27.43Mb", server: 150.230.41.9, port: 23292, type: vmess, uuid: 956c6c2f-bf54-4b87-fafd-4b767ca12750, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇩🇪 德国_univstar_87, server: 178.18.244.2, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 97OnDEZYGja4, udp: true}
+  - {name: 🇺🇸 美国_univstar_39, server: 38.64.138.53, port: 1035, type: ss, cipher: chacha20-ietf-poly1305, password: )1N1E6v0SU_rGTpg, udp: true}
+  - {name: 🇺🇸 美国_univstar_8, server: 162.251.61.221, port: 803, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: "[VMess] BZ【付费推荐：goo.gs/vip】 9", server: 203.30.188.120, port: 443, type: vmess, uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: opfr1.v2rayfree1.xyz}}, udp: true}
+  - {name: 🇺🇸 美国_univstar_25, server: 162.251.61.221, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 🇺🇸 美国_univstar_74, server: 162.251.61.221, port: 804, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 🇫🇷 _FR_法国_3_8@14, server: 51.77.71.134, port: 443, type: trojan, password: origin, skip-cert-verify: true, udp: true}
+  - {name: "|11.62Mb", server: 152.70.241.18, port: 26676, type: vmess, uuid: ecd274c0-175d-45f7-8276-a3da93786632, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇫🇷 _FR_法国_3_10@9, server: content-provider5.cdn-delivery.akamaicd.com, port: 443, type: trojan, password: Sp3eDVp, skip-cert-verify: true, udp: true}
+  - {name: 🇫🇷 _FR_法国_1_9@23, server: 51.77.71.131, port: 443, type: trojan, password: Sp3eDVp, skip-cert-verify: true, udp: true}
+  - {name: 🇫🇷 _FR_法国_4_8@22, server: 176.31.83.90, port: 443, type: trojan, password: origin, skip-cert-verify: true, udp: true}
+  - {name: "[VMess] AM【付费推荐：goo.gs/vip】 2", server: 185.162.228.229, port: 443, type: vmess, uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: opfr1.v2rayfree1.xyz}}, udp: true}
+  - {name: "|41.70Mb", server: m4.40010010.xyz, port: 37121, type: vmess, uuid: 575e4d92-1056-44c2-8cac-75ef1c859ad5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 🇰🇷 韩国_univstar_29, server: 138.2.113.248, port: 443, type: trojan, password: 9c822f05-cfdc-479a-9534-60f3d4127435, skip-cert-verify: true, udp: true}
+  - {name: 未知_1214690, server: 104.18.83.229, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: sg-gcore-2.sharecentre.online}}, udp: true}
+  - {name: "🇳🇱 [VMess] 🇳🇱 NL【付费推荐：goo.gs/vip】", server: 188.114.99.11, port: 443, type: vmess, uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: lg10.cfcdn1.xyz}}, udp: true}
+  - {name: 未知_1214683, server: 104.17.117.107, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: sg-gcore-2.sharecentre.online}}, udp: true}
+  - {name: 🇳🇱 -荷兰-146.185.248.113, server: 146.185.248.113, port: 31990, type: vmess, uuid: a6a37e04-5e81-44c9-be53-baa3ff46eb8b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 未知_1214677, server: 162.159.141.221, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: sg-gcore-2.sharecentre.online}}, udp: true}
+  - {name: 伯利兹_1214020, server: 203.30.189.191, port: 443, type: vmess, uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: lg10.cfcdn1.xyz}}, udp: true}
+  - {name: 🇦🇹 奥地利_univstar_20, server: 79.133.43.126, port: 50000, type: ss, cipher: aes-256-cfb, password: !<str> 3135771619, udp: true}
+  - {name: 🇷🇺 俄罗斯联邦_1214031, server: RU-153-16.shoptunnel.live, port: 31990, type: vmess, uuid: a6a37e04-5e81-44c9-be53-baa3ff46eb8b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港_1214372, server: 47.243.107.181, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: sg-gcore-2.sharecentre.online}}, udp: true}
+  - {name: 🇯🇵 日本_univstar_82, server: 185.172.113.58, port: 50003, type: ss, cipher: aes-256-cfb, password: !<str> 8460400130, udp: true}
+  - {name: 🇬🇧 英国_univstar_18, server: 51.89.138.162, port: 50003, type: ss, cipher: aes-256-cfb, password: !<str> 8460400130, udp: true}
+  - {name: 🇨🇾 塞浦路斯_1214008, server: 203.24.108.9, port: 443, type: vmess, uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: oplg1.zhujicn2.com}}, udp: true}
+  - {name: 🇺🇸 美国 004, server: 138.2.44.211, port: 20081, type: vmess, uuid: 593b8525-0c48-4b0f-d9af-2d73a9148973, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 _JP_日本_2_11@13, server: 168.138.44.176, port: 443, type: trojan, password: 8d2d5953-d649-4034-94f2-72f2df2623da, skip-cert-verify: true, udp: true}
+  - {name: "|32.11Mb", server: jgwxn3.gaox.ml, port: 443, type: trojan, password: cb43b7c2-b744-41c5-bcc2-fd7467b332cf, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 _JP_日本_1_8@10, server: 168.138.43.89, port: 443, type: trojan, password: d06a3f01-1ff0-4792-9b8e-a5a604bc74a2, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 亚美尼亚_1214004, server: 185.162.228.229, port: 443, type: vmess, uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: opfr1.v2rayfree1.xyz}}, udp: true}
+  - {name: 🇸🇬 新加坡_univstar_124, server: sg5.v2rayserv.com, port: 80, type: vmess, uuid: 02c99c32-0058-4b87-b51a-8f5d6a59bddd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: sg5.v2rayserv.com}}, udp: true}
+  - {name: 未知_1214004, server: uicdn.cf, port: 80, type: vmess, uuid: 6fea1649-425b-4092-bf53-29792152c925, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: us-lb.sshkit.org}}, udp: true}
+  - {name: 🇸🇬 新加坡_univstar_73, server: 51.79.145.10, port: 50000, type: ss, cipher: aes-256-cfb, password: !<str> 3135771619, udp: true}
+  - {name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:) 59, server: 196.247.59.154, port: 800, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 🇸🇬 新加坡_univstar_58, server: 206.189.86.169, port: 50000, type: ss, cipher: aes-256-cfb, password: !<str> 3135771619, udp: true}
+  - {name: 🇯🇵 日本_univstar_81, server: 194.156.230.46, port: 50000, type: ss, cipher: aes-256-cfb, password: !<str> 3135771619, udp: true}
+  - {name: 🇸🇬 新加坡_univstar_19, server: 139.162.45.139, port: 443, type: trojan, password: FLpONjB2Lb, skip-cert-verify: true, udp: true}
+  - {name: 🇸🇬 新加坡_univstar_64, server: 51.79.173.183, port: 50000, type: ss, cipher: aes-256-cfb, password: !<str> 3135771619, udp: true}
+  - {name: 🇨🇦 加拿大_univstar_137, server: 196.247.59.156, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 🇨🇦 加拿大_univstar_131, server: 196.247.59.156, port: 801, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: "[VMess] BZ【付费推荐：goo.gs/vip】 12", server: 203.30.188.190, port: 443, type: vmess, uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: lg10.cfcdn1.xyz}}, udp: true}
+  - {name: "🇺🇸 [VMess] 🇺🇲 US【付费推荐：goo.gs/vip】 5", server: 66.235.200.22, port: 443, type: vmess, uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: lg10.cfcdn1.xyz}}, udp: true}
+  - {name: 🇮🇳 _IN_印度_8@20, server: 152.67.160.174, port: 443, type: trojan, password: 54080134-2cba-4535-8599-95650bd9aa54, skip-cert-verify: true, udp: true}
+  - {name: "🇨🇦 [VMess] CA【付费推荐：goo.gs/vip】 3", server: 23.227.38.38, port: 443, type: vmess, uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: lg1.trump2023.us}}, udp: true}
+  - {name: "|141.28Mb", server: 139.99.91.95, port: 443, type: vmess, uuid: c0156451-4efb-45e2-84fc-8d315c4650db, alterId: 32, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇰🇷 韩国_univstar_115, server: 141.164.57.47, port: 50000, type: ss, cipher: aes-256-cfb, password: !<str> 3135771619, udp: true}
+  - {name: "[VMess] BZ【付费推荐：goo.gs/vip】 13", server: 203.30.190.192, port: 443, type: vmess, uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: lg10.cfcdn1.xyz}}, udp: true}
+  - {name: 🇨🇳 中国_1214025, server: 39.103.165.178, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "[VMess] BZ【付费推荐：goo.gs/vip】 10", server: 203.30.189.191, port: 443, type: vmess, uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: lg10.cfcdn1.xyz}}, udp: true}
+  - {name: "|23.90Mb", server: 49.51.232.253, port: 42622, type: vmess, uuid: e95e3039-8e6d-4ed2-e719-95a51e98c3dd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "🇺🇸 [VMess] 🇺🇲 US【付费推荐：goo.gs/vip】 6", server: 66.235.200.21, port: 443, type: vmess, uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: oplg1.zhujicn2.com}}, udp: true}
+  - {name: 🇸🇬 新加坡_univstar_46, server: 51.79.223.96, port: 50004, type: ss, cipher: aes-256-cfb, password: !<str> 4415934295, udp: true}
+  - {name: 二爷翻墙 https://1808.ga node_32, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: lvryzenkvm1gb.sharecentre.online}}, udp: true}
+  - {name: 🇹🇭 泰国_univstar_22, server: 38.54.33.116, port: 50000, type: ss, cipher: aes-256-cfb, password: !<str> 3135771619, udp: true}
+  - {name: "🇨🇦 [VMess] CA【付费推荐：goo.gs/vip】 2", server: 23.227.38.40, port: 443, type: vmess, uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: lg10.cfcdn1.xyz}}, udp: true}
+  - {name: 二爷翻墙 https://1808.ga node_119, server: 193.239.87.134, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 🇨🇳 中国_1214022, server: 139.186.198.63, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 中国_1214024, server: 112.132.215.189, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 日本_1214043, server: fullaccesstojapannetsubnode1.azurewebsites.net, port: 443, type: vmess, uuid: 274f11c6-f69b-40b9-8966-f39e06e97be7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: fullaccesstojapannetsubnode1.azurewebsites.net}}, udp: true}
+  - {name: 🇺🇸 美国(TG频道@kxswa), server: 88.210.37.18, port: 38758, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 _US_美国_2_22@4, server: 51.81.220.195, port: 80, type: vmess, uuid: 6fea1649-425b-4092-bf53-29792152c925, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 51.81.220.195}}, udp: true}
+  - {name: 🇭🇰 香港_univstar_28, server: 5.181.4.239, port: 50006, type: ss, cipher: aes-256-cfb, password: !<str> 9344665077, udp: true}
+  - {name: 🇨🇳 中国_1214027, server: 49.234.84.132, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 未知_1214681, server: 104.18.108.109, port: 2082, type: vmess, uuid: a427c1b6-c03c-4b39-9f72-c407bef82250, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: VN.CLOUDFLARE.QUEST}}, udp: true}
+  - {name: "|20.06Mb", server: 49.51.232.253, port: 11388, type: vmess, uuid: 2fb49486-cc63-44a8-a95d-41e9a2cbf53d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 二爷翻墙 https://1808.ga node_173, server: 38.68.135.19, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 🇺🇸 美国_univstar_89, server: 167.88.62.62, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: 二爷翻墙 https://1808.ga node_128, server: 54.36.174.181, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 二爷翻墙 https://1808.ga node_133, server: 54.36.174.181, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: 🇨🇳 _CN_中国_1@14, server: 47.104.237.32, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 二爷翻墙 https://1808.ga node_130, server: 51.77.53.200, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: 二爷翻墙 https://1808.ga node_108, server: 51.77.53.200, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 🇯🇵 日本_univstar_66, server: 85.208.108.93, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 🇯🇵 日本_univstar_76, server: 81.90.190.175, port: 50000, type: ss, cipher: aes-256-cfb, password: !<str> 3135771619, udp: true}
+  - {name: 二爷翻墙 https://1808.ga node_111, server: 54.36.174.181, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 二爷翻墙 https://1808.ga node_89, server: 51.77.53.200, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: 🇸🇬 新加坡_univstar_85, server: 51.79.177.159, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: 二爷翻墙 https://1808.ga node_98, server: 193.108.118.79, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 二爷翻墙 https://1808.ga node_101, server: 54.36.174.181, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: 🇺🇸 美国_univstar_98, server: 38.114.114.69, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: 🇺🇸 美国_univstar_86, server: 167.88.63.79, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:) 7, server: 167.88.63.79, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 二爷翻墙 https://1808.ga node_125, server: 54.36.174.181, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: 🇸🇬 新加坡_univstar_120, server: 139.99.68.21, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: 二爷翻墙 https://1808.ga node_129, server: 54.36.174.181, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: 二爷翻墙 https://1808.ga node_201, server: 38.121.43.204, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: 二爷翻墙 https://1808.ga node_124, server: 54.36.174.181, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: 二爷翻墙 https://1808.ga node_150, server: 145.239.1.100, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: 🇺🇸 美国_univstar_26, server: 38.91.106.136, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: 🇺🇸 美国_univstar_119, server: 38.75.136.21, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 🇨🇦 加拿大_univstar_67, server: 51.161.118.38, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 二爷翻墙 https://1808.ga node_145, server: 38.68.135.19, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: 二爷翻墙 https://1808.ga node_155, server: 38.107.226.238, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 二爷翻墙 https://1808.ga node_192, server: 38.86.135.169, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: 二爷翻墙 https://1808.ga node_152, server: 38.107.226.238, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 二爷翻墙 https://1808.ga node_102, server: 38.75.136.34, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: 二爷翻墙 https://1808.ga node_153, server: 38.86.135.36, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: 二爷翻墙 https://1808.ga node_140, server: 167.88.61.213, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: 二爷翻墙 https://1808.ga node_136, server: 145.239.1.100, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: 二爷翻墙 https://1808.ga node_113, server: 167.88.61.213, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 二爷翻墙 https://1808.ga node_94, server: 142.202.48.7, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: "|12.15Mb", server: 206.119.112.6, port: 8189, type: vmess, uuid: a90597c1-bab3-4217-ad6f-0838675c8638, alterId: 10, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 日本_univstar_69, server: 85.208.108.93, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: 二爷翻墙 https://1808.ga node_239, server: 38.86.135.36, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: 二爷翻墙 https://1808.ga node_144, server: 145.239.1.100, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: 二爷翻墙 https://1808.ga node_88, server: 142.202.48.7, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 二爷翻墙 https://1808.ga node_146, server: 145.239.1.100, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: 二爷翻墙 https://1808.ga node_289, server: 38.75.136.34, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: 二爷翻墙 https://1808.ga node_147, server: 38.75.136.34, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 🇺🇸 美国_univstar_7, server: 38.86.135.27, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: 🇨🇦 加拿大_univstar_114, server: 134.195.196.149, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:) 76, server: 167.88.61.175, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: 🇺🇸 美国_univstar_101, server: 38.114.114.69, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:) 83, server: 38.75.136.21, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 🇨🇦 加拿大_univstar_33, server: 134.195.198.106, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: 🇺🇸 美国_univstar_123, server: 169.197.141.187, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: 二爷翻墙 https://1808.ga node_273, server: 142.202.48.7, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 🇺🇸 美国_univstar_112, server: 167.88.61.14, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: 二爷翻墙 https://1808.ga node_110, server: 54.36.174.181, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 🇨🇦 加拿大_univstar_106, server: 38.111.114.246, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: 二爷翻墙 https://1808.ga node_143, server: 145.239.1.100, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: 二爷翻墙 https://1808.ga node_75, server: 167.88.61.213, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: 二爷翻墙 https://1808.ga node_126, server: 145.239.1.100, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: 🇺🇸 美国_univstar_48, server: 167.88.61.213, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:) 65, server: 145.239.1.100, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: 🇺🇸 293_美国-2.78MB, server: 169.197.141.39, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: 二爷翻墙 https://1808.ga node_132, server: 142.202.48.7, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 二爷翻墙 https://1808.ga node_139, server: 145.239.1.100, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 🇺🇸 美国_univstar_10, server: 38.68.135.19, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 🇨🇦 加拿大_univstar_129, server: 38.111.114.246, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: 🇨🇦 加拿大_univstar_118, server: 134.195.196.149, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 🇨🇦 加拿大_univstar_13, server: 134.195.196.107, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 二爷翻墙 https://1808.ga node_120, server: 145.239.1.100, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 二爷翻墙 https://1808.ga node_159, server: 145.239.1.100, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 🇨🇦 加拿大_univstar_45, server: 134.195.198.95, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: 🇺🇸 美国_univstar_42, server: 38.91.102.74, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: 🇨🇦 加拿大_univstar_117, server: 134.195.196.149, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 🇺🇸 美国_univstar_109, server: 38.91.102.30, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: "|23.88Mb", server: 129.159.139.101, port: 443, type: vmess, uuid: b7519a6f-c1de-4667-e606-b60c65d19078, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 129.159.139.101}}, udp: true}
+  - {name: 🇺🇸 美国_univstar_108, server: 38.143.66.55, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 🇺🇸 美国_univstar_107, server: 167.88.62.62, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 二爷翻墙 https://1808.ga node_164, server: 145.239.1.100, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 🇨🇦 加拿大_univstar_116, server: 134.195.198.95, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 二爷翻墙 https://1808.ga node_240, server: 145.239.1.100, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: 🇺🇸 284_美国-3.29MB, server: 38.143.66.55, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: 二爷翻墙 https://1808.ga node_160, server: 38.86.135.36, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 二爷翻墙 https://1808.ga node_228, server: 145.239.1.100, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+proxy-groups:
+  - name: 规则选择
+    type: select
+    proxies:
+      - 负载均衡
+      - 自动选择
+  - name: 中国节点
+    type: select
+    proxies:
+      - 🇭🇰 香港_1214372
+      - 🇨🇳 中国_1214025
+      - 🇨🇳 中国_1214022
+      - 🇨🇳 中国_1214024
+      - 🇭🇰 香港_univstar_28
+      - 🇨🇳 中国_1214027
+      - 🇨🇳 _CN_中国_1@14
+  - name: 日本节点
+    type: select
+    proxies:
+      - 🇯🇵 日本_univstar_82
+      - 🇯🇵 _JP_日本_2_11@13
+      - 🇯🇵 _JP_日本_1_8@10
+      - 🇯🇵 日本_univstar_81
+      - 🇯🇵 日本_1214043
+      - 🇯🇵 日本_univstar_66
+      - 🇯🇵 日本_univstar_76
+      - 🇯🇵 日本_univstar_69
+  - name: 新加坡节点
+    type: select
+    proxies:
+      - 🇸🇬 新加坡_univstar_124
+      - 🇸🇬 新加坡_univstar_73
+      - 🇸🇬 新加坡_univstar_58
+      - 🇸🇬 新加坡_univstar_19
+      - 🇸🇬 新加坡_univstar_64
+      - 🇸🇬 新加坡_univstar_46
+      - 🇸🇬 新加坡_univstar_85
+      - 🇸🇬 新加坡_univstar_120
+  - name: 美国节点
+    type: select
+    proxies:
+      - 🇺🇸 github.com/freefq - 美国  10
+      - 🇺🇸 美国_univstar_51
+      - 🇺🇸 美国_univstar_83
+      - 🇺🇸 美国_univstar_47
+      - 🇺🇸 美国_univstar_97
+      - 🇺🇸 _US_美国_1_10@1
+      - 🇺🇸 美国_univstar_113
+      - 🇺🇸 美国_univstar_71
+      - 🇺🇸 美国_univstar_70
+      - 🇺🇸 美国_univstar_35
+      - 🇺🇸 美国_univstar_78
+      - 🇺🇸 美国_univstar_27
+      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 9
+      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点(shopify) 1
+      - 🇺🇸 287_美国-2.97MB
+      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 16
+      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 26
+      - 🇺🇸 美国_univstar_43
+      - 🇺🇸 美国 034
+      - 🇺🇸 _US_美国_3_10@8
+      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 18
+      - 🇺🇸 美国_univstar_39
+      - 🇺🇸 美国_univstar_8
+      - 🇺🇸 美国_univstar_25
+      - 🇺🇸 美国_univstar_74
+      - 🇺🇸 美国 004
+      - 🇺🇸 [VMess] 🇺🇲 US【付费推荐：goo.gs/vip】 5
+      - 🇺🇸 [VMess] 🇺🇲 US【付费推荐：goo.gs/vip】 6
+      - 🇺🇸 美国(TG频道@kxswa)
+      - 🇺🇸 _US_美国_2_22@4
+      - 🇺🇸 美国_univstar_89
+      - 🇺🇸 美国_univstar_98
+      - 🇺🇸 美国_univstar_86
+      - 🇺🇸 美国_univstar_26
+      - 🇺🇸 美国_univstar_119
+      - 🇺🇸 美国_univstar_7
+      - 🇺🇸 美国_univstar_101
+      - 🇺🇸 美国_univstar_123
+      - 🇺🇸 美国_univstar_112
+      - 🇺🇸 美国_univstar_48
+      - 🇺🇸 293_美国-2.78MB
+      - 🇺🇸 美国_univstar_10
+      - 🇺🇸 美国_univstar_42
+      - 🇺🇸 美国_univstar_109
+      - 🇺🇸 美国_univstar_108
+      - 🇺🇸 美国_univstar_107
+      - 🇺🇸 284_美国-3.29MB
+  - name: 手动切换
+    type: select
+    proxies:
+      - 未知_1214654
+      - 🇺🇸 github.com/freefq - 美国  10
+      - 🇺🇸 美国_univstar_51
+      - 🇺🇸 美国_univstar_83
+      - 🇺🇸 美国_univstar_47
+      - _null_null
+      - 🇺🇸 美国_univstar_97
+      - 🇺🇸 _US_美国_1_10@1
+      - 🇺🇸 美国_univstar_113
+      - "|25.38Mb"
+      - 🇺🇸 美国_univstar_71
+      - 🇺🇸 美国_univstar_70
+      - 🇺🇸 美国_univstar_35
+      - 🇺🇸 美国_univstar_78
+      - "|23.69Mb"
+      - 🇺🇸 美国_univstar_27
+      - "|23.80Mb"
+      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 9
+      - "[VMess] AM【付费推荐：goo.gs/vip】"
+      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点(shopify) 1
+      - 🇺🇸 287_美国-2.97MB
+      - 二爷翻墙 https://1808.ga node_87
+      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 16
+      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 26
+      - 🇺🇸 美国_univstar_43
+      - 🇺🇸 美国 034
+      - 🇨🇦 _CA_加拿大_13@16
+      - 二爷翻墙 https://1808.ga node_91
+      - 🇺🇸 _US_美国_3_10@8
+      - "[VMess] BZ【付费推荐：goo.gs/vip】"
+      - 二爷翻墙 https://1808.ga node_51
+      - 🇳🇱 荷兰_univstar_99
+      - 🇦🇺 github.com/freefq - 澳大利亚Cranbourne Secondary College 17
+      - 🇬🇧 _GB_英国_3_10@22
+      - 🇳🇱 荷兰_univstar_5
+      - 🇫🇷 法国_univstar_31
+      - 二爷翻墙 https://1808.ga node_37
+      - 🇳🇱 _NL_荷兰_8@27
+      - 🇨🇭 瑞士_univstar_44
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:) 60
+      - 🇳🇱 _NL_荷兰_3_10@32
+      - 🇩🇪 德国_univstar_54
+      - 🇳🇱 _NL_荷兰_1_10@19
+      - 🇩🇪 德国_univstar_65
+      - 🇸🇪 瑞典_1214002
+      - 🇨🇱 智利_univstar_63
+      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 18
+      - 二爷翻墙 https://1808.ga node_36
+      - 🇩🇪 480_德国-2.86MB
+      - "|27.43Mb"
+      - 🇩🇪 德国_univstar_87
+      - 🇺🇸 美国_univstar_39
+      - 🇺🇸 美国_univstar_8
+      - "[VMess] BZ【付费推荐：goo.gs/vip】 9"
+      - 🇺🇸 美国_univstar_25
+      - 🇺🇸 美国_univstar_74
+      - 🇫🇷 _FR_法国_3_8@14
+      - "|11.62Mb"
+      - 🇫🇷 _FR_法国_3_10@9
+      - 🇫🇷 _FR_法国_1_9@23
+      - 🇫🇷 _FR_法国_4_8@22
+      - "[VMess] AM【付费推荐：goo.gs/vip】 2"
+      - "|41.70Mb"
+      - 🇰🇷 韩国_univstar_29
+      - 未知_1214690
+      - 🇳🇱 [VMess] 🇳🇱 NL【付费推荐：goo.gs/vip】
+      - 未知_1214683
+      - 🇳🇱 -荷兰-146.185.248.113
+      - 未知_1214677
+      - 伯利兹_1214020
+      - 🇦🇹 奥地利_univstar_20
+      - 🇷🇺 俄罗斯联邦_1214031
+      - 🇭🇰 香港_1214372
+      - 🇯🇵 日本_univstar_82
+      - 🇬🇧 英国_univstar_18
+      - 🇨🇾 塞浦路斯_1214008
+      - 🇺🇸 美国 004
+      - 🇯🇵 _JP_日本_2_11@13
+      - "|32.11Mb"
+      - 🇯🇵 _JP_日本_1_8@10
+      - 🇺🇸 亚美尼亚_1214004
+      - 🇸🇬 新加坡_univstar_124
+      - 未知_1214004
+      - 🇸🇬 新加坡_univstar_73
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:) 59
+      - 🇸🇬 新加坡_univstar_58
+      - 🇯🇵 日本_univstar_81
+      - 🇸🇬 新加坡_univstar_19
+      - 🇸🇬 新加坡_univstar_64
+      - 🇨🇦 加拿大_univstar_137
+      - 🇨🇦 加拿大_univstar_131
+      - "[VMess] BZ【付费推荐：goo.gs/vip】 12"
+      - 🇺🇸 [VMess] 🇺🇲 US【付费推荐：goo.gs/vip】 5
+      - 🇮🇳 _IN_印度_8@20
+      - 🇨🇦 [VMess] CA【付费推荐：goo.gs/vip】 3
+      - "|141.28Mb"
+      - 🇰🇷 韩国_univstar_115
+      - "[VMess] BZ【付费推荐：goo.gs/vip】 13"
+      - 🇨🇳 中国_1214025
+      - "[VMess] BZ【付费推荐：goo.gs/vip】 10"
+      - "|23.90Mb"
+      - 🇺🇸 [VMess] 🇺🇲 US【付费推荐：goo.gs/vip】 6
+      - 🇸🇬 新加坡_univstar_46
+      - 二爷翻墙 https://1808.ga node_32
+      - 🇹🇭 泰国_univstar_22
+      - 🇨🇦 [VMess] CA【付费推荐：goo.gs/vip】 2
+      - 二爷翻墙 https://1808.ga node_119
+      - 🇨🇳 中国_1214022
+      - 🇨🇳 中国_1214024
+      - 🇯🇵 日本_1214043
+      - 🇺🇸 美国(TG频道@kxswa)
+      - 🇺🇸 _US_美国_2_22@4
+      - 🇭🇰 香港_univstar_28
+      - 🇨🇳 中国_1214027
+      - 未知_1214681
+      - "|20.06Mb"
+      - 二爷翻墙 https://1808.ga node_173
+      - 🇺🇸 美国_univstar_89
+      - 二爷翻墙 https://1808.ga node_128
+      - 二爷翻墙 https://1808.ga node_133
+      - 🇨🇳 _CN_中国_1@14
+      - 二爷翻墙 https://1808.ga node_130
+      - 二爷翻墙 https://1808.ga node_108
+      - 🇯🇵 日本_univstar_66
+      - 🇯🇵 日本_univstar_76
+      - 二爷翻墙 https://1808.ga node_111
+      - 二爷翻墙 https://1808.ga node_89
+      - 🇸🇬 新加坡_univstar_85
+      - 二爷翻墙 https://1808.ga node_98
+      - 二爷翻墙 https://1808.ga node_101
+      - 🇺🇸 美国_univstar_98
+      - 🇺🇸 美国_univstar_86
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:) 7
+      - 二爷翻墙 https://1808.ga node_125
+      - 🇸🇬 新加坡_univstar_120
+      - 二爷翻墙 https://1808.ga node_129
+      - 二爷翻墙 https://1808.ga node_201
+      - 二爷翻墙 https://1808.ga node_124
+      - 二爷翻墙 https://1808.ga node_150
+      - 🇺🇸 美国_univstar_26
+      - 🇺🇸 美国_univstar_119
+      - 🇨🇦 加拿大_univstar_67
+      - 二爷翻墙 https://1808.ga node_145
+      - 二爷翻墙 https://1808.ga node_155
+      - 二爷翻墙 https://1808.ga node_192
+      - 二爷翻墙 https://1808.ga node_152
+      - 二爷翻墙 https://1808.ga node_102
+      - 二爷翻墙 https://1808.ga node_153
+      - 二爷翻墙 https://1808.ga node_140
+      - 二爷翻墙 https://1808.ga node_136
+      - 二爷翻墙 https://1808.ga node_113
+      - 二爷翻墙 https://1808.ga node_94
+      - "|12.15Mb"
+      - 🇯🇵 日本_univstar_69
+      - 二爷翻墙 https://1808.ga node_239
+      - 二爷翻墙 https://1808.ga node_144
+      - 二爷翻墙 https://1808.ga node_88
+      - 二爷翻墙 https://1808.ga node_146
+      - 二爷翻墙 https://1808.ga node_289
+      - 二爷翻墙 https://1808.ga node_147
+      - 🇺🇸 美国_univstar_7
+      - 🇨🇦 加拿大_univstar_114
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:) 76
+      - 🇺🇸 美国_univstar_101
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:) 83
+      - 🇨🇦 加拿大_univstar_33
+      - 🇺🇸 美国_univstar_123
+      - 二爷翻墙 https://1808.ga node_273
+      - 🇺🇸 美国_univstar_112
+      - 二爷翻墙 https://1808.ga node_110
+      - 🇨🇦 加拿大_univstar_106
+      - 二爷翻墙 https://1808.ga node_143
+      - 二爷翻墙 https://1808.ga node_75
+      - 二爷翻墙 https://1808.ga node_126
+      - 🇺🇸 美国_univstar_48
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:) 65
+      - 🇺🇸 293_美国-2.78MB
+      - 二爷翻墙 https://1808.ga node_132
+      - 二爷翻墙 https://1808.ga node_139
+      - 🇺🇸 美国_univstar_10
+      - 🇨🇦 加拿大_univstar_129
+      - 🇨🇦 加拿大_univstar_118
+      - 🇨🇦 加拿大_univstar_13
+      - 二爷翻墙 https://1808.ga node_120
+      - 二爷翻墙 https://1808.ga node_159
+      - 🇨🇦 加拿大_univstar_45
+      - 🇺🇸 美国_univstar_42
+      - 🇨🇦 加拿大_univstar_117
+      - 🇺🇸 美国_univstar_109
+      - "|23.88Mb"
+      - 🇺🇸 美国_univstar_108
+      - 🇺🇸 美国_univstar_107
+      - 二爷翻墙 https://1808.ga node_164
+      - 🇨🇦 加拿大_univstar_116
+      - 二爷翻墙 https://1808.ga node_240
+      - 🇺🇸 284_美国-3.29MB
+      - 二爷翻墙 https://1808.ga node_160
+      - 二爷翻墙 https://1808.ga node_228
+  - name: 自动选择
+    type: url-test
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    tolerance: 50
+    proxies:
+      - 未知_1214654
+      - 🇺🇸 github.com/freefq - 美国  10
+      - 🇺🇸 美国_univstar_51
+      - 🇺🇸 美国_univstar_83
+      - 🇺🇸 美国_univstar_47
+      - _null_null
+      - 🇺🇸 美国_univstar_97
+      - 🇺🇸 _US_美国_1_10@1
+      - 🇺🇸 美国_univstar_113
+      - "|25.38Mb"
+      - 🇺🇸 美国_univstar_71
+      - 🇺🇸 美国_univstar_70
+      - 🇺🇸 美国_univstar_35
+      - 🇺🇸 美国_univstar_78
+      - "|23.69Mb"
+      - 🇺🇸 美国_univstar_27
+      - "|23.80Mb"
+      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 9
+      - "[VMess] AM【付费推荐：goo.gs/vip】"
+      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点(shopify) 1
+      - 🇺🇸 287_美国-2.97MB
+      - 二爷翻墙 https://1808.ga node_87
+      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 16
+      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 26
+      - 🇺🇸 美国_univstar_43
+      - 🇺🇸 美国 034
+      - 🇨🇦 _CA_加拿大_13@16
+      - 二爷翻墙 https://1808.ga node_91
+      - 🇺🇸 _US_美国_3_10@8
+      - "[VMess] BZ【付费推荐：goo.gs/vip】"
+      - 二爷翻墙 https://1808.ga node_51
+      - 🇳🇱 荷兰_univstar_99
+      - 🇦🇺 github.com/freefq - 澳大利亚Cranbourne Secondary College 17
+      - 🇬🇧 _GB_英国_3_10@22
+      - 🇳🇱 荷兰_univstar_5
+      - 🇫🇷 法国_univstar_31
+      - 二爷翻墙 https://1808.ga node_37
+      - 🇳🇱 _NL_荷兰_8@27
+      - 🇨🇭 瑞士_univstar_44
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:) 60
+      - 🇳🇱 _NL_荷兰_3_10@32
+      - 🇩🇪 德国_univstar_54
+      - 🇳🇱 _NL_荷兰_1_10@19
+      - 🇩🇪 德国_univstar_65
+      - 🇸🇪 瑞典_1214002
+      - 🇨🇱 智利_univstar_63
+      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 18
+      - 二爷翻墙 https://1808.ga node_36
+      - 🇩🇪 480_德国-2.86MB
+      - "|27.43Mb"
+      - 🇩🇪 德国_univstar_87
+      - 🇺🇸 美国_univstar_39
+      - 🇺🇸 美国_univstar_8
+      - "[VMess] BZ【付费推荐：goo.gs/vip】 9"
+      - 🇺🇸 美国_univstar_25
+      - 🇺🇸 美国_univstar_74
+      - 🇫🇷 _FR_法国_3_8@14
+      - "|11.62Mb"
+      - 🇫🇷 _FR_法国_3_10@9
+      - 🇫🇷 _FR_法国_1_9@23
+      - 🇫🇷 _FR_法国_4_8@22
+      - "[VMess] AM【付费推荐：goo.gs/vip】 2"
+      - "|41.70Mb"
+      - 🇰🇷 韩国_univstar_29
+      - 未知_1214690
+      - 🇳🇱 [VMess] 🇳🇱 NL【付费推荐：goo.gs/vip】
+      - 未知_1214683
+      - 🇳🇱 -荷兰-146.185.248.113
+      - 未知_1214677
+      - 伯利兹_1214020
+      - 🇦🇹 奥地利_univstar_20
+      - 🇷🇺 俄罗斯联邦_1214031
+      - 🇭🇰 香港_1214372
+      - 🇯🇵 日本_univstar_82
+      - 🇬🇧 英国_univstar_18
+      - 🇨🇾 塞浦路斯_1214008
+      - 🇺🇸 美国 004
+      - 🇯🇵 _JP_日本_2_11@13
+      - "|32.11Mb"
+      - 🇯🇵 _JP_日本_1_8@10
+      - 🇺🇸 亚美尼亚_1214004
+      - 🇸🇬 新加坡_univstar_124
+      - 未知_1214004
+      - 🇸🇬 新加坡_univstar_73
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:) 59
+      - 🇸🇬 新加坡_univstar_58
+      - 🇯🇵 日本_univstar_81
+      - 🇸🇬 新加坡_univstar_19
+      - 🇸🇬 新加坡_univstar_64
+      - 🇨🇦 加拿大_univstar_137
+      - 🇨🇦 加拿大_univstar_131
+      - "[VMess] BZ【付费推荐：goo.gs/vip】 12"
+      - 🇺🇸 [VMess] 🇺🇲 US【付费推荐：goo.gs/vip】 5
+      - 🇮🇳 _IN_印度_8@20
+      - 🇨🇦 [VMess] CA【付费推荐：goo.gs/vip】 3
+      - "|141.28Mb"
+      - 🇰🇷 韩国_univstar_115
+      - "[VMess] BZ【付费推荐：goo.gs/vip】 13"
+      - 🇨🇳 中国_1214025
+      - "[VMess] BZ【付费推荐：goo.gs/vip】 10"
+      - "|23.90Mb"
+      - 🇺🇸 [VMess] 🇺🇲 US【付费推荐：goo.gs/vip】 6
+      - 🇸🇬 新加坡_univstar_46
+      - 二爷翻墙 https://1808.ga node_32
+      - 🇹🇭 泰国_univstar_22
+      - 🇨🇦 [VMess] CA【付费推荐：goo.gs/vip】 2
+      - 二爷翻墙 https://1808.ga node_119
+      - 🇨🇳 中国_1214022
+      - 🇨🇳 中国_1214024
+      - 🇯🇵 日本_1214043
+      - 🇺🇸 美国(TG频道@kxswa)
+      - 🇺🇸 _US_美国_2_22@4
+      - 🇭🇰 香港_univstar_28
+      - 🇨🇳 中国_1214027
+      - 未知_1214681
+      - "|20.06Mb"
+      - 二爷翻墙 https://1808.ga node_173
+      - 🇺🇸 美国_univstar_89
+      - 二爷翻墙 https://1808.ga node_128
+      - 二爷翻墙 https://1808.ga node_133
+      - 🇨🇳 _CN_中国_1@14
+      - 二爷翻墙 https://1808.ga node_130
+      - 二爷翻墙 https://1808.ga node_108
+      - 🇯🇵 日本_univstar_66
+      - 🇯🇵 日本_univstar_76
+      - 二爷翻墙 https://1808.ga node_111
+      - 二爷翻墙 https://1808.ga node_89
+      - 🇸🇬 新加坡_univstar_85
+      - 二爷翻墙 https://1808.ga node_98
+      - 二爷翻墙 https://1808.ga node_101
+      - 🇺🇸 美国_univstar_98
+      - 🇺🇸 美国_univstar_86
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:) 7
+      - 二爷翻墙 https://1808.ga node_125
+      - 🇸🇬 新加坡_univstar_120
+      - 二爷翻墙 https://1808.ga node_129
+      - 二爷翻墙 https://1808.ga node_201
+      - 二爷翻墙 https://1808.ga node_124
+      - 二爷翻墙 https://1808.ga node_150
+      - 🇺🇸 美国_univstar_26
+      - 🇺🇸 美国_univstar_119
+      - 🇨🇦 加拿大_univstar_67
+      - 二爷翻墙 https://1808.ga node_145
+      - 二爷翻墙 https://1808.ga node_155
+      - 二爷翻墙 https://1808.ga node_192
+      - 二爷翻墙 https://1808.ga node_152
+      - 二爷翻墙 https://1808.ga node_102
+      - 二爷翻墙 https://1808.ga node_153
+      - 二爷翻墙 https://1808.ga node_140
+      - 二爷翻墙 https://1808.ga node_136
+      - 二爷翻墙 https://1808.ga node_113
+      - 二爷翻墙 https://1808.ga node_94
+      - "|12.15Mb"
+      - 🇯🇵 日本_univstar_69
+      - 二爷翻墙 https://1808.ga node_239
+      - 二爷翻墙 https://1808.ga node_144
+      - 二爷翻墙 https://1808.ga node_88
+      - 二爷翻墙 https://1808.ga node_146
+      - 二爷翻墙 https://1808.ga node_289
+      - 二爷翻墙 https://1808.ga node_147
+      - 🇺🇸 美国_univstar_7
+      - 🇨🇦 加拿大_univstar_114
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:) 76
+      - 🇺🇸 美国_univstar_101
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:) 83
+      - 🇨🇦 加拿大_univstar_33
+      - 🇺🇸 美国_univstar_123
+      - 二爷翻墙 https://1808.ga node_273
+      - 🇺🇸 美国_univstar_112
+      - 二爷翻墙 https://1808.ga node_110
+      - 🇨🇦 加拿大_univstar_106
+      - 二爷翻墙 https://1808.ga node_143
+      - 二爷翻墙 https://1808.ga node_75
+      - 二爷翻墙 https://1808.ga node_126
+      - 🇺🇸 美国_univstar_48
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:) 65
+      - 🇺🇸 293_美国-2.78MB
+      - 二爷翻墙 https://1808.ga node_132
+      - 二爷翻墙 https://1808.ga node_139
+      - 🇺🇸 美国_univstar_10
+      - 🇨🇦 加拿大_univstar_129
+      - 🇨🇦 加拿大_univstar_118
+      - 🇨🇦 加拿大_univstar_13
+      - 二爷翻墙 https://1808.ga node_120
+      - 二爷翻墙 https://1808.ga node_159
+      - 🇨🇦 加拿大_univstar_45
+      - 🇺🇸 美国_univstar_42
+      - 🇨🇦 加拿大_univstar_117
+      - 🇺🇸 美国_univstar_109
+      - "|23.88Mb"
+      - 🇺🇸 美国_univstar_108
+      - 🇺🇸 美国_univstar_107
+      - 二爷翻墙 https://1808.ga node_164
+      - 🇨🇦 加拿大_univstar_116
+      - 二爷翻墙 https://1808.ga node_240
+      - 🇺🇸 284_美国-3.29MB
+      - 二爷翻墙 https://1808.ga node_160
+      - 二爷翻墙 https://1808.ga node_228
+  - name: 负载均衡
+    type: load-balance
+    strategy: consistent-hashing
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    tolerance: 50
+    proxies:
+      - 未知_1214654
+      - 🇺🇸 github.com/freefq - 美国  10
+      - 🇺🇸 美国_univstar_51
+      - 🇺🇸 美国_univstar_83
+      - 🇺🇸 美国_univstar_47
+      - _null_null
+      - 🇺🇸 美国_univstar_97
+      - 🇺🇸 _US_美国_1_10@1
+      - 🇺🇸 美国_univstar_113
+      - "|25.38Mb"
+      - 🇺🇸 美国_univstar_71
+      - 🇺🇸 美国_univstar_70
+      - 🇺🇸 美国_univstar_35
+      - 🇺🇸 美国_univstar_78
+      - "|23.69Mb"
+      - 🇺🇸 美国_univstar_27
+      - "|23.80Mb"
+      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 9
+      - "[VMess] AM【付费推荐：goo.gs/vip】"
+      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点(shopify) 1
+      - 🇺🇸 287_美国-2.97MB
+      - 二爷翻墙 https://1808.ga node_87
+      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 16
+      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 26
+      - 🇺🇸 美国_univstar_43
+      - 🇺🇸 美国 034
+      - 🇨🇦 _CA_加拿大_13@16
+      - 二爷翻墙 https://1808.ga node_91
+      - 🇺🇸 _US_美国_3_10@8
+      - "[VMess] BZ【付费推荐：goo.gs/vip】"
+      - 二爷翻墙 https://1808.ga node_51
+      - 🇳🇱 荷兰_univstar_99
+      - 🇦🇺 github.com/freefq - 澳大利亚Cranbourne Secondary College 17
+      - 🇬🇧 _GB_英国_3_10@22
+      - 🇳🇱 荷兰_univstar_5
+      - 🇫🇷 法国_univstar_31
+      - 二爷翻墙 https://1808.ga node_37
+      - 🇳🇱 _NL_荷兰_8@27
+      - 🇨🇭 瑞士_univstar_44
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:) 60
+      - 🇳🇱 _NL_荷兰_3_10@32
+      - 🇩🇪 德国_univstar_54
+      - 🇳🇱 _NL_荷兰_1_10@19
+      - 🇩🇪 德国_univstar_65
+      - 🇸🇪 瑞典_1214002
+      - 🇨🇱 智利_univstar_63
+      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 18
+      - 二爷翻墙 https://1808.ga node_36
+      - 🇩🇪 480_德国-2.86MB
+      - "|27.43Mb"
+      - 🇩🇪 德国_univstar_87
+      - 🇺🇸 美国_univstar_39
+      - 🇺🇸 美国_univstar_8
+      - "[VMess] BZ【付费推荐：goo.gs/vip】 9"
+      - 🇺🇸 美国_univstar_25
+      - 🇺🇸 美国_univstar_74
+      - 🇫🇷 _FR_法国_3_8@14
+      - "|11.62Mb"
+      - 🇫🇷 _FR_法国_3_10@9
+      - 🇫🇷 _FR_法国_1_9@23
+      - 🇫🇷 _FR_法国_4_8@22
+      - "[VMess] AM【付费推荐：goo.gs/vip】 2"
+      - "|41.70Mb"
+      - 🇰🇷 韩国_univstar_29
+      - 未知_1214690
+      - 🇳🇱 [VMess] 🇳🇱 NL【付费推荐：goo.gs/vip】
+      - 未知_1214683
+      - 🇳🇱 -荷兰-146.185.248.113
+      - 未知_1214677
+      - 伯利兹_1214020
+      - 🇦🇹 奥地利_univstar_20
+      - 🇷🇺 俄罗斯联邦_1214031
+      - 🇭🇰 香港_1214372
+      - 🇯🇵 日本_univstar_82
+      - 🇬🇧 英国_univstar_18
+      - 🇨🇾 塞浦路斯_1214008
+      - 🇺🇸 美国 004
+      - 🇯🇵 _JP_日本_2_11@13
+      - "|32.11Mb"
+      - 🇯🇵 _JP_日本_1_8@10
+      - 🇺🇸 亚美尼亚_1214004
+      - 🇸🇬 新加坡_univstar_124
+      - 未知_1214004
+      - 🇸🇬 新加坡_univstar_73
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:) 59
+      - 🇸🇬 新加坡_univstar_58
+      - 🇯🇵 日本_univstar_81
+      - 🇸🇬 新加坡_univstar_19
+      - 🇸🇬 新加坡_univstar_64
+      - 🇨🇦 加拿大_univstar_137
+      - 🇨🇦 加拿大_univstar_131
+      - "[VMess] BZ【付费推荐：goo.gs/vip】 12"
+      - 🇺🇸 [VMess] 🇺🇲 US【付费推荐：goo.gs/vip】 5
+      - 🇮🇳 _IN_印度_8@20
+      - 🇨🇦 [VMess] CA【付费推荐：goo.gs/vip】 3
+      - "|141.28Mb"
+      - 🇰🇷 韩国_univstar_115
+      - "[VMess] BZ【付费推荐：goo.gs/vip】 13"
+      - 🇨🇳 中国_1214025
+      - "[VMess] BZ【付费推荐：goo.gs/vip】 10"
+      - "|23.90Mb"
+      - 🇺🇸 [VMess] 🇺🇲 US【付费推荐：goo.gs/vip】 6
+      - 🇸🇬 新加坡_univstar_46
+      - 二爷翻墙 https://1808.ga node_32
+      - 🇹🇭 泰国_univstar_22
+      - 🇨🇦 [VMess] CA【付费推荐：goo.gs/vip】 2
+      - 二爷翻墙 https://1808.ga node_119
+      - 🇨🇳 中国_1214022
+      - 🇨🇳 中国_1214024
+      - 🇯🇵 日本_1214043
+      - 🇺🇸 美国(TG频道@kxswa)
+      - 🇺🇸 _US_美国_2_22@4
+      - 🇭🇰 香港_univstar_28
+      - 🇨🇳 中国_1214027
+      - 未知_1214681
+      - "|20.06Mb"
+      - 二爷翻墙 https://1808.ga node_173
+      - 🇺🇸 美国_univstar_89
+      - 二爷翻墙 https://1808.ga node_128
+      - 二爷翻墙 https://1808.ga node_133
+      - 🇨🇳 _CN_中国_1@14
+      - 二爷翻墙 https://1808.ga node_130
+      - 二爷翻墙 https://1808.ga node_108
+      - 🇯🇵 日本_univstar_66
+      - 🇯🇵 日本_univstar_76
+      - 二爷翻墙 https://1808.ga node_111
+      - 二爷翻墙 https://1808.ga node_89
+      - 🇸🇬 新加坡_univstar_85
+      - 二爷翻墙 https://1808.ga node_98
+      - 二爷翻墙 https://1808.ga node_101
+      - 🇺🇸 美国_univstar_98
+      - 🇺🇸 美国_univstar_86
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:) 7
+      - 二爷翻墙 https://1808.ga node_125
+      - 🇸🇬 新加坡_univstar_120
+      - 二爷翻墙 https://1808.ga node_129
+      - 二爷翻墙 https://1808.ga node_201
+      - 二爷翻墙 https://1808.ga node_124
+      - 二爷翻墙 https://1808.ga node_150
+      - 🇺🇸 美国_univstar_26
+      - 🇺🇸 美国_univstar_119
+      - 🇨🇦 加拿大_univstar_67
+      - 二爷翻墙 https://1808.ga node_145
+      - 二爷翻墙 https://1808.ga node_155
+      - 二爷翻墙 https://1808.ga node_192
+      - 二爷翻墙 https://1808.ga node_152
+      - 二爷翻墙 https://1808.ga node_102
+      - 二爷翻墙 https://1808.ga node_153
+      - 二爷翻墙 https://1808.ga node_140
+      - 二爷翻墙 https://1808.ga node_136
+      - 二爷翻墙 https://1808.ga node_113
+      - 二爷翻墙 https://1808.ga node_94
+      - "|12.15Mb"
+      - 🇯🇵 日本_univstar_69
+      - 二爷翻墙 https://1808.ga node_239
+      - 二爷翻墙 https://1808.ga node_144
+      - 二爷翻墙 https://1808.ga node_88
+      - 二爷翻墙 https://1808.ga node_146
+      - 二爷翻墙 https://1808.ga node_289
+      - 二爷翻墙 https://1808.ga node_147
+      - 🇺🇸 美国_univstar_7
+      - 🇨🇦 加拿大_univstar_114
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:) 76
+      - 🇺🇸 美国_univstar_101
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:) 83
+      - 🇨🇦 加拿大_univstar_33
+      - 🇺🇸 美国_univstar_123
+      - 二爷翻墙 https://1808.ga node_273
+      - 🇺🇸 美国_univstar_112
+      - 二爷翻墙 https://1808.ga node_110
+      - 🇨🇦 加拿大_univstar_106
+      - 二爷翻墙 https://1808.ga node_143
+      - 二爷翻墙 https://1808.ga node_75
+      - 二爷翻墙 https://1808.ga node_126
+      - 🇺🇸 美国_univstar_48
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:) 65
+      - 🇺🇸 293_美国-2.78MB
+      - 二爷翻墙 https://1808.ga node_132
+      - 二爷翻墙 https://1808.ga node_139
+      - 🇺🇸 美国_univstar_10
+      - 🇨🇦 加拿大_univstar_129
+      - 🇨🇦 加拿大_univstar_118
+      - 🇨🇦 加拿大_univstar_13
+      - 二爷翻墙 https://1808.ga node_120
+      - 二爷翻墙 https://1808.ga node_159
+      - 🇨🇦 加拿大_univstar_45
+      - 🇺🇸 美国_univstar_42
+      - 🇨🇦 加拿大_univstar_117
+      - 🇺🇸 美国_univstar_109
+      - "|23.88Mb"
+      - 🇺🇸 美国_univstar_108
+      - 🇺🇸 美国_univstar_107
+      - 二爷翻墙 https://1808.ga node_164
+      - 🇨🇦 加拿大_univstar_116
+      - 二爷翻墙 https://1808.ga node_240
+      - 🇺🇸 284_美国-3.29MB
+      - 二爷翻墙 https://1808.ga node_160
+      - 二爷翻墙 https://1808.ga node_228
+rules:
+ - MATCH,规则选择
