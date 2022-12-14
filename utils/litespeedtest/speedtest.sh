@@ -4,7 +4,7 @@ wget -O clash.gz https://github.com/Dreamacro/clash/releases/download/v1.11.4/cl
 gunzip clash.gz
 wget -O lite.gz https://github.com/alanbobs999/LiteSpeedTest/releases/download/v0.11.2m/lite-linux-amd64-v0.11.2m.gz
 gunzip lite.gz
-wget -O proxychains.conf https://raw.githubusercontent.com/rxsweet/fetchProxy/main/utils/litespeedtest/proxychains.conf
+wget -O proxychains.conf https://raw.githubusercontent.com/rxsweet/crawlNode/main/utils/litespeedtest/proxychains.conf
 echo "download done !"
 
 #初始化 Clash
