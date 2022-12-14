@@ -21,7 +21,7 @@ import geoip2.database
 countrymmdb_file = './Country.mmdb'
 
 #默认转clash配置文件.ini地址
-config_url = 'https://raw.githubusercontent.com/rxsweet/fetchProxy/main/config/provider/rxconfig.ini'
+config_url = 'https://raw.githubusercontent.com/rxsweet/crawlNode/main/utils/config.ini'
 
 #host备用网络地址 - 可用不用安装subconverter,直接使用这些网站
 url_host ={
