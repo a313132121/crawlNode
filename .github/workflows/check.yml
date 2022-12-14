@@ -51,11 +51,11 @@ jobs:
 # 执行任务            
     - name: 执行任务 - 1.clashcheck 
       run:
-       sudo chmod 777 clash-linuxamd64 && python ./utils/checkclash/main.py
+       sudo chmod 777 clash-linuxamd64 && python ./utils/check/main.py
        
     - name: 执行任务 - 2.convert to sub 
       run:
-       python ./utils/checkclash/convert2sub/convert2sub.py
+       python ./utils/check/convert2sub/convert2sub.py
        
 # 提交           
     - name: 提交更改
