@@ -21,6 +21,6 @@ sudo pkill -f clash
 #运行 LiteSpeedTest
 echo "lite speed test start !"
 chmod +x ./lite
-sudo nohup proxychains ./lite --config ./utils/litespeedtest/lite_config.json --test https://raw.githubusercontent.com/rxsweet/crawlNode/main/sub/sources/nocheckClash.yml >speedtest.log 2>&1 &
+sudo nohup proxychains ./lite --config ./utils/litespeedtest/lite_config.json --test https://raw.githubusercontent.com/rxsweet/crawlNode/main/sub/sources/noCheckClash.yml >speedtest.log 2>&1 &
 
 
