@@ -6,7 +6,7 @@ from clash import filter
 
 from yaml import SafeLoader
 
-config_yaml_path = './utils/checkclash/config.yaml'
+config_yaml_path = './utils/check/config.yaml'
 
 def init():
     if not os.path.exists('./temp'):
