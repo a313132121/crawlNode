@@ -5,7 +5,7 @@
     "sortMethod":"rspeed",
     "concurrency":32,
     "testMode":2,
-    "subscription":"./sub/sources/url",
+    "subscription":"./sub/sources/noCheckClash.yml",
     "timeout":8,
     "language":"en",
     "fontSize":24,
