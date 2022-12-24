@@ -1,0 +1,66 @@
+[
+  {
+    "id": 1,
+    "remarks": "pojiezhiyuanjun",
+    "site": "https://github.com/pojiezhiyuanjun/freev2",
+    "url": "https://raw.githubusercontent.com/pojiezhiyuanjun/freev2/master/1224.txt",
+    "update_method": "change_date",
+    "enabled": true
+  },
+  {
+    "id": 2,
+    "remarks": "ClashNode",
+    "site": "https://clashnode.com/f/freenode",
+    "url": "https://clashnode.com/wp-content/uploads/2022/12/20221223.txt",
+    "update_method": "change_date",
+    "enabled": true
+  },
+  {
+    "id": 3,
+    "remarks": "Nodefree.org",
+    "site": "https://github.com/Fukki-Z/nodefree",
+    "url": "https://nodefree.org/dy/202212/20221223.txt",
+    "update_method": "change_date",
+    "enabled": true
+  },
+  {
+    "id": 4,
+    "remarks": "kkzui.com",
+    "site": "https://kkzui.com/jd?orderby=modified",
+    "url": "https://oss.v2rayse.com/proxies/data/2022-12-23/Zc85vB.txt",
+    "update_method": "page_release",
+    "enabled": true
+  },
+  {
+    "id": 5,
+    "remarks": "changfengoss",
+    "site": "https://github.com/changfengoss/pub",
+    "url": "https://raw.githubusercontent.com/changfengoss/pub/main/data/2022_12_24/I1dV8U.yaml|https://raw.githubusercontent.com/changfengoss/pub/main/data/2022_12_24/KLaGvb.yaml|https://raw.githubusercontent.com/changfengoss/pub/main/data/2022_12_24/YvoLJQ.yaml|https://raw.githubusercontent.com/changfengoss/pub/main/data/2022_12_24/cl1jlg.txt|https://raw.githubusercontent.com/changfengoss/pub/main/data/2022_12_24/isdag9.yaml|https://raw.githubusercontent.com/changfengoss/pub/main/data/2022_12_24/rQUSHA.yaml",
+    "update_method": "page_release",
+    "enabled": true
+  },
+  {
+    "id": 6,
+    "remarks": "www.cfmem.com",
+    "site": "https://www.cfmem.com/search/label/free",
+    "url": "https://oss.v2rayse.com/proxies/data/2022-12-24/eaS4UV.yaml",
+    "update_method": "page_release",
+    "enabled": true
+  },
+  {
+    "id": 7,
+    "remarks": "v2cross.com",
+    "site": "https://v2cross.com/",
+    "url": "https://9527521.xyz/pubconfig/FyzB43lWick9gKMo",
+    "update_method": "page_release",
+    "enabled": true
+  },
+  {
+    "id": 8,
+    "remarks": "mianfeifq",
+    "site": "https://github.com/mianfeifq/share",
+    "url": "https://raw.githubusercontent.com/mianfeifq/share/main/data2022126.txt",
+    "update_method": "page_release",
+    "enabled": true
+  }
+]
