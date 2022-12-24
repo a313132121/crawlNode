@@ -8,6 +8,7 @@ import requests
 
 #源文件
 urllistfile = './utils/crawlNode/sublist'
+urllistfile2 = './sub/sources/changeSubList.txt'
 #输出订阅文件位置
 outputAllyaml_path = './sub/sources/all.yaml'
 outputUrlSub_path = './sub/sources/url'
@@ -32,19 +33,25 @@ def write_file(file,content):
 
 def urlListToSub(urllistfile):  #将url订阅列表内容转换成url,base64,clash文件保存
     
-    #打开url列表文件
+    #打开url列表文件1
     file_urllist = open(urllistfile, 'r', encoding='utf-8')
     urllist_content = file_urllist.read()
     file_urllist.close()
-    
     #打开url列表文件内容，以行为单位存放到line列表
     lines = re.split(r'\n+',urllist_content)
-	
-    #。。。
+
+    #打开url列表文件2
+    file_urllist = open(urllistfile2, 'r', encoding='utf-8')
+    urllist_content = file_urllist.read()
+    file_urllist.close()
+    #打开url列表文件内容，以行为单位存放到line列表
+    lines = lines + re.split(r'\n+',urllist_content)
+"""	
+    #网络获取
     res = requests.get('https://raw.githubusercontent.com/rxsweet/test/main/subList.txt', timeout=5)
     raw_content = res.text
     lines = lines + re.split(r'\n+',raw_content)
-	
+"""	
     allProxy = []
     
     #计算打印url总数
