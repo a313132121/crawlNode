@@ -38,6 +38,12 @@ def urlListToSub(urllistfile):  #将url订阅列表内容转换成url,base64,cla
     
     #打开url列表文件内容，以行为单位存放到line列表
     lines = re.split(r'\n+',urllist_content)
+	
+    #。。。
+    res = requests.get('https://raw.githubusercontent.com/rxsweet/test/main/subList.txt', timeout=5)
+    raw_content = res.text
+    lines = lines + re.split(r'\n+',raw_content)
+	
     allProxy = []
     
     #计算打印url总数
