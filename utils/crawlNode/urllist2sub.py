@@ -4,6 +4,7 @@ from tqdm import tqdm   #进度条库
 import threading  #线程
 from ip_update import geoip_update  # 更新ip库Country.mmdb 
 from sub_convert import sub_convert
+import requests
 
 #源文件
 urllistfile = './utils/crawlNode/sublist'
