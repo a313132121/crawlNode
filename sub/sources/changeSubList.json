@@ -3,7 +3,7 @@
     "id": 1,
     "remarks": "pojiezhiyuanjun",
     "site": "https://github.com/pojiezhiyuanjun/freev2",
-    "url": "https://raw.githubusercontent.com/pojiezhiyuanjun/freev2/master/1226.txt",
+    "url": "https://raw.githubusercontent.com/pojiezhiyuanjun/freev2/master/1227.txt",
     "update_method": "change_date",
     "enabled": true
   },
@@ -27,7 +27,7 @@
     "id": 4,
     "remarks": "kkzui.com",
     "site": "https://kkzui.com/jd?orderby=modified",
-    "url": "https://oss.v2rayse.com/proxies/data/2022-12-25/gSeIFt.txt",
+    "url": "https://oss.v2rayse.com/proxies/data/2022-12-26/C1RgSU.txt",
     "update_method": "page_release",
     "enabled": true
   },
@@ -35,7 +35,7 @@
     "id": 5,
     "remarks": "changfengoss",
     "site": "https://github.com/changfengoss/pub",
-    "url": "https://raw.githubusercontent.com/changfengoss/pub/main/data/2022_12_26/Az4gr1.yaml|https://raw.githubusercontent.com/changfengoss/pub/main/data/2022_12_26/FFpEt1.yaml|https://raw.githubusercontent.com/changfengoss/pub/main/data/2022_12_26/N6HDiE.yaml|https://raw.githubusercontent.com/changfengoss/pub/main/data/2022_12_26/PQzRxZ.yaml|https://raw.githubusercontent.com/changfengoss/pub/main/data/2022_12_26/TCdo1z.txt|https://raw.githubusercontent.com/changfengoss/pub/main/data/2022_12_26/ZJU0Ur.txt|https://raw.githubusercontent.com/changfengoss/pub/main/data/2022_12_26/efTTsD.yaml|https://raw.githubusercontent.com/changfengoss/pub/main/data/2022_12_26/hWtB6m.yaml|https://raw.githubusercontent.com/changfengoss/pub/main/data/2022_12_26/nNLw0l.yaml|https://raw.githubusercontent.com/changfengoss/pub/main/data/2022_12_26/oslcKu.yaml|https://raw.githubusercontent.com/changfengoss/pub/main/data/2022_12_26/tTy2Lp.yaml|https://raw.githubusercontent.com/changfengoss/pub/main/data/2022_12_26/wo4Utc.yaml",
+    "url": "",
     "update_method": "page_release",
     "enabled": true
   },
