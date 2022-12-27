@@ -3,7 +3,7 @@
     "id": 1,
     "remarks": "pojiezhiyuanjun",
     "site": "https://github.com/pojiezhiyuanjun/freev2",
-    "url": "https://raw.githubusercontent.com/pojiezhiyuanjun/freev2/master/1227.txt",
+    "url": "https://raw.githubusercontent.com/pojiezhiyuanjun/freev2/master/1228.txt",
     "update_method": "change_date",
     "enabled": true
   },
@@ -27,7 +27,7 @@
     "id": 4,
     "remarks": "kkzui.com",
     "site": "https://kkzui.com/jd?orderby=modified",
-    "url": "https://oss.v2rayse.com/proxies/data/2022-12-26/C1RgSU.txt",
+    "url": "https://oss.v2rayse.com/proxies/data/2022-12-27/t5Jql2.txt",
     "update_method": "page_release",
     "enabled": true
   },
@@ -35,7 +35,7 @@
     "id": 5,
     "remarks": "changfengoss",
     "site": "https://github.com/changfengoss/pub",
-    "url": "https://raw.githubusercontent.com/changfengoss/pub/main/data/2022_12_27/Em2ZOg.yaml",
+    "url": "",
     "update_method": "page_release",
     "enabled": true
   },
