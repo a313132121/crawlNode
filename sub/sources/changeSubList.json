@@ -11,7 +11,7 @@
     "id": 2,
     "remarks": "ClashNode",
     "site": "https://clashnode.com/f/freenode",
-    "url": "https://clashnode.com/wp-content/uploads/2022/12/20221227.txt",
+    "url": "https://clashnode.com/wp-content/uploads/2022/12/20221228.txt",
     "update_method": "change_date",
     "enabled": true
   },
@@ -35,7 +35,7 @@
     "id": 5,
     "remarks": "changfengoss",
     "site": "https://github.com/changfengoss/pub",
-    "url": "",
+    "url": "https://raw.githubusercontent.com/changfengoss/pub/main/data/2022_12_28/ScUZCC.yaml|https://raw.githubusercontent.com/changfengoss/pub/main/data/2022_12_28/dcPpQb.yaml",
     "update_method": "page_release",
     "enabled": true
   },
@@ -43,7 +43,7 @@
     "id": 6,
     "remarks": "www.cfmem.com",
     "site": "https://www.cfmem.com/search/label/free",
-    "url": "https://oss.v2rayse.com/proxies/data/2022-12-26/7DXucM.yaml",
+    "url": "https://oss.v2rayse.com/proxies/data/2022-12-28/oiqqng.yaml",
     "update_method": "page_release",
     "enabled": true
   },
